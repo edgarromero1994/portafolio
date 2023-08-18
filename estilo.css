@@ -99,10 +99,8 @@ nav {
     grid-template-columns: 60% 30%;
     align-items: center;
     width: 100%;
-    height: 100vh;
     background-color: #091a2a;
     color: #03a8f9;
-   
   }
 
  .sobremi {
@@ -160,15 +158,6 @@ nav {
     padding: 0.3rem 0;
   }
 
-  .background {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background-color: #091a2a;
-  }
-  
-
   .habilidades {
     width: 100%;
     margin: auto;
@@ -197,7 +186,6 @@ nav {
   .contenedor-habilidades {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Espacio entre las imágenes */
     width: 80%;
     justify-content: center;
     align-items: center;
@@ -435,6 +423,7 @@ nav {
       }
 
       .hero{
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
         margin-left:none;
@@ -475,7 +464,7 @@ nav {
       .contenedor-habilidades {
        display: grid;
        grid-template-columns: repeat(2, 1fr);
-       gap: 3px;
+       gap: 5px;
       }
 
       .imagenes {
