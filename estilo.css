@@ -515,4 +515,8 @@ nav {
       .bio {
         max-width: 23.75rem;
       }
+
+      .sociales {
+        bottom: 20%;
+      }
   }
