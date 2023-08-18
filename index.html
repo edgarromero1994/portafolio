@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Estilos CSS -->
+    <link rel="stylesheet" href="estilo.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animaciones CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Edgar | Desarrolladora Web</title>
+  </head>
+
+  <body>
+    <!-- Barra de Navegación -->
+    <nav>
+        <h1>Romero </h1>
+        <ul class="navegacion">
+          <li><a href="#about" class="nav-link">Acerca de Mí</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <button class="menu-hamburguesa" id="menu-hamburguesa">
+          <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+
+    <!-- Sección Hero  -->
+    <section class="hero" id="about">
+
+        <div class="sobremi">
+          <h2>Hola, Soy</h2>
+          <h1>Edgar Romero Cuc Chocoj</h1>
+
+          <div class="bio">
+            <h2 class="bio-titulo">Sobre Mí</h2>
+            <p class="bio-texto">
+              Mi pasión por la programación web y mi conjunto de habilidades 
+              en JavaScript, CSS, ReactJS, MongoDB y Node.js 
+              me impulsan a crear soluciones web que sean atractivas,
+              funcionales y efectivas. 
+            </p>
+
+            <p class="bio-texto">
+               ¡Estoy emocionado por seguir 
+              explorando este emocionante campo 
+              y llevar ideas innovadoras a la vida digital.
+            </p>
+          </div>
+
+          <h2> "Fullstack"</h2>
+        </div>
+
+
+
+        <div class="imagensobremi">
+          <img
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvDUD5pw_FmJfWhYHhDh5_x5D2zUhHsE2z40WJ75HUxDNBIlKQbvRqe6o1F-J14k_H--iXcPafwv8jtfjAGJ97HaegFnRowb6glJ_hkF4jAzc-5zStLFnFiqwEd3IYoywRHLxhoLMuItYzVOa05Ibabz0P75M8JIy66wzQNPJYh3W2Ykrg8SJoIr3Kckg5/s320/fotos%20de%20edgar.png"
+          alt=""
+          
+        />
+        </div>
+
+  </section>
+
+    <!-- Sección Habilidades -->
+   <div class="background">
+    <section class="habilidades" id="habilidades">
+      <h2 class="header-habilidadr">Mis mejores habilidades</h2>
+
+      <div class="contenedor-habilidades">
+        <div class="imagenes">
+          <h3>HTML</h3>
+          <img
+            src="https://cdn.iconscout.com/icon/premium/png-256-thumb/html-2752158-2284975.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="imagenes">
+          <h3>CSS</h3>
+           <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+        />
+          </div>
+
+          
+        <div class="imagenes">
+          <h3>JavaScript</h3>
+          <img
+             src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png"
+             alt=""
+             loading="lazy"
+             class="icon icon-card"
+       />
+         </div>
+
+
+         <div class="imagenes">
+          <h3>ReactJS</h3>
+          <img
+             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+             alt=""
+             loading="lazy"
+             class="icon icon-card"
+       />
+         </div>
+
+         <div class="imagenes">
+          <h3>NodeJS</h3>
+          <img
+             src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png"
+             alt=""
+             loading="lazy"
+             class="icon icon-card"
+       />
+         </div>
+
+         <div class="imagenes">
+          <h3>MongoDB</h3>
+          <img
+             src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png"
+             alt=""
+             loading="lazy"
+             class="icon icon-card"
+       />
+         </div>
+      </div>
+    </section>
+   </div>
+
+
+    <!-- Sección Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="header-habilidadr">Algunos de mis proyectos recientes</h2>
+        <div class="contenedor-de-proyectos">
+          <div class="tarjeta-de-proyecto">
+            <img
+              src="https://vilmanunez.com/wp-content/uploads/2018/06/tiendas-online.png"
+              alt="netflic-clone"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-proyecto">Netflix Clone</h3>
+            <p class="detalles-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="tarjeta-de-proyecto">
+            <img
+              src="https://markepymes.com/wp-content/uploads/2018/02/6-consejos-para-hacer-tu-tienda-online-mas-segura.jpg"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyecto">Greeny Earth</h3>
+            <p class="detalles-de-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+
+          <div class="tarjeta-de-proyecto">
+            <img
+              src="https://markepymes.com/wp-content/uploads/2018/02/6-consejos-para-hacer-tu-tienda-online-mas-segura.jpg"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyecto">Greeny Earth</h3>
+            <p class="detalles-de-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+
+          <div class="tarjeta-de-proyecto">
+            <img
+              src="https://markepymes.com/wp-content/uploads/2018/02/6-consejos-para-hacer-tu-tienda-online-mas-segura.jpg"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyecto">Greeny Earth</h3>
+            <p class="detalles-de-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+
+          
+        </div>
+      </section>
+
+    <!-- Sección Contacto-->
+    <section class="contacto" id="contacto">
+        <h2>Contactame</h2>
+        <div class="formulario-contacto-contenedor">
+          <div class="formulario-contacto">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="control-formulario">
+                <label for="name">Nombre</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Escribe tu nombre"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="email">Correo Electrónico</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Ingreso tu correo electrónico"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje"
+                  cols="60"
+                  rows="10"
+                  placeholder="Escribe tu mensaje"
+                  name="mensaje"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Enviar"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección de redes sociales - Fijado a la derecha -->
+    <div class="sociales">
+        <a href="https://www.linkedin.com/in/edgar-romero-cuc-chocoj-ba1897272/" target="_blank"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="" target="_blank"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.instagram.com/edgarromero_123/" target="_blank"
+          ><img
+            src="https://img.freepik.com/vector-premium/logotipo-redes-sociales-degradado-purpura_197792-1883.jpg?w=2000"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+
+        <a href="https://www.tiktok.com/@edukuk1" target="_blank"
+        ><img
+          src="https://cdn.pixabay.com/photo/2021/01/30/06/42/tiktok-5962992_1280.png"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+
+      <a href="https://www.youtube.com/channel/UCQLV4bIw__DiplHJ7gNmt0A" target="_blank"
+      ><img
+        src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+
+    <a href="https://www.facebook.com/profile.php?id=100094217906458" target="_blank"
+    ><img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"
+      alt="Linkedin"
+      loading="lazy"
+      class="socicon"
+            /></a>
+
+        <a href="https://github.com/edgarromero1994" target="_blank"
+          ><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" class="socicon"
+        /></a>
+
+        </div>
+    <!-- Vuelve al comienzo  -->
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+    ><img
+      src="https://previews.123rf.com/images/alexwhite/alexwhite1411/alexwhite141104595/33766650-flecha-hacia-arriba-icono-el-bot%C3%B3n-violeta-muestra-de-la-flecha.jpg"
+      class="socicon up-arrow"
+      alt="desplazarse-hacia-arriba"
+  /></i>
+    <!-- Sección Footer  -->
+    <footer class="piepagina">
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="https://www.tiktok.com/@edukuk1" target="_blank"
+            >Edgar Romero Cuc (ERC)</a
+          >
+        </p>
+  </footer>
+    <!-- Website scripts -->
+    <script src="app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
